@@ -19,11 +19,6 @@ public class PresenterTask implements IPresenterTask {
 
         this.view = view;
         listOfTasks = new ArrayList<>();
-
-        listOfTasks.add(new Task("task1", "desc......task1"));
-        listOfTasks.add(new Task("task2", "desc......task2"));
-        listOfTasks.add(new Task("task3", "desc......task3"));
-        listOfTasks.add(new Task("task4", "desc.... task4"));
     }
 
     @Override

@@ -11,7 +11,10 @@ import info.gert.androidmvp.main.model.Task;
 public interface IPresenterTask{
 
     void addNewTask(String name, String descOfTask);
+
     List<Task> getAllTasks();
+
     void deleteTask(Object name);
+
     void refresh();
 }
