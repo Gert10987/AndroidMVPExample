@@ -11,4 +11,6 @@ public interface ITaskView {
     void addTask();
 
     boolean onItemLongClick(int position);
+
+    void clearData();
 }

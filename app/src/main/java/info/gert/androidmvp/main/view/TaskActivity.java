@@ -66,4 +66,11 @@ public class TaskActivity extends AppCompatActivity implements ITaskView {
 
         return true;
     }
+
+    @Override
+    public void clearData() {
+
+        nameOfTask.setText("");
+        descTask.setText("");
+    }
 }
